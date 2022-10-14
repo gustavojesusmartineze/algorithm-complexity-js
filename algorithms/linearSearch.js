@@ -1,13 +1,13 @@
 /**
  * Time Complexity -> O( n + 3 ) -> O(n)
- * Spatial complexity -> O(  )
- * Espacio Auxiliar -> O(  )
+ * Spatial complexity -> O( n + 1 ) -> O(n)
+ * Auxiliar Space (Spatial complexity - Input Space)  -> O(1)
  */
-function linearSearch(arreglo, clave) {
-  for (let indice = 0; indice < arreglo.length; indice++) { // Temporal = O(n)
-    if (arreglo[indice] === clave) { // Temporal = O(1)
-      return indice; // Temporal = O(1)
+function linearSearch(arreglo, clave) { // Space = O(n)
+  for (let indice = 0; indice < arreglo.length; indice++) { // Time = O(1)  -----  Space = O(1)
+    if (arreglo[indice] === clave) { // Time = O(1)
+      return indice;  // Time = O(1)
     }
   }
-  return -1; // Temporal = O(1)
+  return -1; // Time = O(1)
 }
