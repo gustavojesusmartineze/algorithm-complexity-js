@@ -1,6 +1,6 @@
 /**
  * Time Complexity -> O( n + 3 ) -> O(n)
- * Complejidad Espacial -> O(  )
+ * Spatial complexity -> O(  )
  * Espacio Auxiliar -> O(  )
  */
 function linearSearch(arreglo, clave) {

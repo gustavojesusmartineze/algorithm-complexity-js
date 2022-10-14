@@ -1,6 +1,6 @@
 /**
  * Time Complexity -> O( 1 + n * 2 + 1 + 1 + 1 + 1 + 1 ) -> O(n^2)
- * Complejidad Espacial -> O(  )
+ * Spatial complexity -> O(  )
  * Espacio Auxiliar -> O(  )
  */
 function bubbleSort(arreglo) {

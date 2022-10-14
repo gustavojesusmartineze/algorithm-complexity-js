@@ -1,6 +1,6 @@
 /**
  * Time Complexity -> O( n^2 )
- * Complejidad Espacial -> O(  )
+ * Spatial complexity -> O(  )
  * Espacio Auxiliar -> O(  )
  */
 function selectionSort(arreglo) {

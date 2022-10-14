@@ -1,6 +1,6 @@
 /**
  * Time Complexity -> O(  )
- * Complejidad Espacial -> O(  )
+ * Spatial complexity -> O(  )
  * Espacio Auxiliar -> O(  )
  */
 function factorial(numero) {
