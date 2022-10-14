@@ -1,23 +1,23 @@
 /**
- * Complejidad Temporal -> O(  )
+ * Complejidad Temporal -> O( n^2 )
  * Complejidad Espacial -> O(  )
  * Espacio Auxiliar -> O(  )
  */
 function selectionSort(arreglo) {
-  let longitud = arreglo.length;
+  let longitud = arreglo.length; // Temporal = O(1)
 
-  for (let i = 0; i < longitud; i++) {
-    let minimo = i;
-    for (let j = i + 1; j < longitud; j++) {
-      if (arreglo[j] < arreglo[minimo]) {
-        minimo = j;
+  for (let i = 0; i < longitud; i++) { // Temporal = O(n)
+    let minimo = i; // Temporal = O(1)
+    for (let j = i + 1; j < longitud; j++) { // Temporal = O(n)
+      if (arreglo[j] < arreglo[minimo]) { // Temporal = O(1)
+        minimo = j; // Temporal = O(1)
       }
     }
-    if (minimo != i) {
-      let temporal = arreglo[i];
-      arreglo[i] = arreglo[minimo];
-      arreglo[minimo] = temporal;
+    if (minimo != i) { // Temporal = O(1)
+      let temporal = arreglo[i]; // Temporal = O(1)
+      arreglo[i] = arreglo[minimo]; // Temporal = O(1)
+      arreglo[minimo] = temporal; // Temporal = O(1)
     }
   }
-  return arreglo;
+  return arreglo; // Temporal = O(1)
 }
