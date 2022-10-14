@@ -1,5 +1,5 @@
 /**
- * Complejidad Temporal -> O( 1 + n * 2 + 1 + 1 + 1 + 1 + 1 ) -> O(n^2)
+ * Time Complexity -> O( 1 + n * 2 + 1 + 1 + 1 + 1 + 1 ) -> O(n^2)
  * Complejidad Espacial -> O(  )
  * Espacio Auxiliar -> O(  )
  */
