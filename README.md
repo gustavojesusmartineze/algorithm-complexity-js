@@ -42,7 +42,7 @@ Seguimos este esquema en el [curso](https://platzi.com/complejidad):
 ```js
 /**
  * Time Complexity -> O(  )
- * Complejidad Espacial -> O(  )
+ * Spatial complexity -> O(  )
  * Espacio Auxiliar -> O(  )
  */
 ```
